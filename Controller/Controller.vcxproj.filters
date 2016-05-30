@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Tcp">
+      <UniqueIdentifier>{f839c828-0549-4391-9579-9aa2536a55cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tcp">
+      <UniqueIdentifier>{e1a7f9d0-ce56-4c36-8a80-61a364815d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Data">
+      <UniqueIdentifier>{de85f462-b3c7-4d04-a22d-cd5a6f08c111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Data">
+      <UniqueIdentifier>{78201e74-5d85-40be-8a1a-8275b704f0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NormalCommand">
+      <UniqueIdentifier>{9646e323-5f29-4e84-a48d-5347d9b5e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NormalCommand">
+      <UniqueIdentifier>{9199276f-29ab-4670-8790-e1865b8bfaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SpecialCommand">
+      <UniqueIdentifier>{f9c40de7-3008-4bd4-879c-55d89c415e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SpecialCommand">
+      <UniqueIdentifier>{729faac6-ff32-4439-976a-269bbb1bace7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpException.h">
+      <Filter>头文件\Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>头文件\Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="ITcp.h">
+      <Filter>头文件\Tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TcpServerSimple\DataStruct.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCommandParserAbstract.h">
+      <Filter>头文件\NormalCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCommandParserFactory.h">
+      <Filter>头文件\NormalCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalCommandParserTest.h">
+      <Filter>头文件\NormalCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialCommandParserAbstract.h">
+      <Filter>头文件\SpecialCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialCommandParserFactory.h">
+      <Filter>头文件\SpecialCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialCommandParserTest.h">
+      <Filter>头文件\SpecialCommand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>源文件\Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpException.cpp">
+      <Filter>源文件\Tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalCommandParserFactory.cpp">
+      <Filter>源文件\NormalCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalCommandParserTest.cpp">
+      <Filter>源文件\NormalCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialCommandParserFactory.cpp">
+      <Filter>源文件\SpecialCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialCommandParserTest.cpp">
+      <Filter>源文件\SpecialCommand</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
